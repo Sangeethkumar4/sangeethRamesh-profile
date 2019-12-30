@@ -1,12 +1,15 @@
-const React = require('react');
-const ReactDOM = require("react-dom");
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Header} from './Header.jsx';
+import './scss/styles.scss';
+import { IconTabs } from './components/TabComponents'
 
 class App extends React.Component {
     render() {
-        return (
-            <div className="container">
-                <h1>Hello {this.props.name}</h1>
-            </div>)
+        return ( <div>
+            <div><Header /></div>
+            <div><IconTabs /></div>
+        </div>);
     }
 }
 

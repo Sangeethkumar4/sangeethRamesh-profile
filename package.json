@@ -11,14 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^2.1.1",
-    "parcel": "^1.12.4",
+    "@material-ui/core": "^4.8.1",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.37",
+    "clone-deep": "^4.0.1",
+    "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "gh-pages": "^2.1.1",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.24.0"
   }
 }
