@@ -33,11 +33,12 @@ const useStyles = makeStyles(theme => ({
    },
    technicalSkills: {
        float: "left",
-       width: "60%"
+       width: "50%"
    },
-   tecnologies:{
+   technologies:{
        float: "right",
-       paddingRight: 50
+       paddingRight: 50,
+       paddingTop: 0
    }
 }));
 
@@ -53,7 +54,7 @@ export function Technologies() {
         <div className= {styles.technicalSkills}>
       {renderTechnicalSkills()}
       </div>
-      <div className = {styles.tecnologies}>
+      <div className = {styles.technologies}>
       {Technology.map(function (each, index) {
          return <Card className= {styles.card} key={index}>
              <CardHeader title={each.label} className={styles.header}/>
@@ -69,7 +70,7 @@ export function Technologies() {
                 </CardContent>
         </Card>   
       })}
-      </div>      
+      </div>
     </div>
   );
 }
